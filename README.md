@@ -72,7 +72,7 @@ Following this, for the same reasons, I decided to apply the same procedure to i
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Step 9 - 10: To compute the 5 metrics I decided to use a Notebook, in order to perform data exploration and analysis. The last step in the Notebook is the saving of the result table in arrow format, partitioned by category and then by country. I have many unrecognised values by country but, with the libraries mentioned above, the value would drop dramatically:
+Step 9 - 10: To compute the 5 metrics I decided to use a Notebook, in order to perform data exploration and analysis. The last step in the Notebook is the saving of the result table in arrow format, partitioned by category (not saved on git - please run the cell in the notebook if you want the files). I have many unrecognised values by country but, with the libraries mentioned above, the value would drop dramatically:
 Inside the notebook folder there is a notebook which allows the connection to the postgres db and retrieve the result table of the transformations.
 The metrics I decided to implement are the following:
 
@@ -85,11 +85,11 @@ The metrics I decided to implement are the following:
 ### Access To Postgres DB
 
 If you want to access to the common_crawl_db you can use also a tool like dbeaver with this configuration:
-- host: localhost
-- port: 5434
-- user: airflow
-- password: airflow
-- DB name: common_crawl_db
+- **host**: localhost
+- **port**: 5434
+- **user**: airflow
+- **password**: airflow
+- **DB name**: common_crawl_db
 
 ### Final Consideration
 
