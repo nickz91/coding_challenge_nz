@@ -76,11 +76,11 @@ Step 9 - 10: To compute the 5 metrics I decided to use a Notebook, in order to p
 Inside the notebook folder there is a notebook which allows the connection to the postgres db and retrieve the result table of the transformations.
 The metrics I decided to implement are the following:
 
-1. Percentage of Categorised Websites: This metric helps us understand the proportion of websites that have been successfully categorised. Useful to understand if the 'category' column is complete and stable enough to perform analysis.
-2. Assess how many uncategorised sites are actually ad-based: This can help to evaluate if the algorithm is good or not. If there are many websites with category 'UNKNOWN' and not ad based, probably the categorization algorithm is not so good.
-3. Top 5 Categories by Count: This shows us the most common categories in our dataset. This may be useful to analyse in detail the behaviour or content of the most informative category.
-4. Distribution of websites by country (mode). The most common category in each country. 
-5. Country with the highest number of sites and subdomains. This gives us a high level idea on the different extensions/depth of the websites in the various country.
+1. **Percentage of Categorised Websites**: This metric helps us understand the proportion of websites that have been successfully categorised. Useful to understand if the 'category' column is complete and stable enough to perform analysis.
+2. **Assess how many un-categorised sites are actually ad-based**: This can help to evaluate if the algorithm is good or not. If there are many websites with category 'UNKNOWN' and not ad based, probably the categorization algorithm is not so good.
+3. **Top 5 Categories by Count**: This shows us the most common categories in our dataset. This may be useful to analyse in detail the behaviour or content of the most informative category.
+4. **Distribution of websites by country (mode)**. The most common category in each country. 
+5. **Country with the highest number of sites and subdomains**. This gives us a high level idea on the different extensions/depth of the websites in the various country.
 
 ### Access To Postgres DB
 
