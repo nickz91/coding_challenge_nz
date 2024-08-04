@@ -72,6 +72,8 @@ Following this, for the same reasons, I decided to apply the same procedure to i
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Metrics And Results
+
 Step 9 - 10: To compute the 5 metrics I decided to use a Notebook, in order to perform data exploration and analysis. The last step in the Notebook is the saving of the result table in arrow format, partitioned by category (not saved on git - please run the cell in the notebook if you want the files). I have many unrecognised values by country but, with the libraries mentioned above, the value would drop dramatically:
 Inside the notebook folder there is a notebook which allows the connection to the postgres db and retrieve the result table of the transformations.
 The metrics I decided to implement are the following:
